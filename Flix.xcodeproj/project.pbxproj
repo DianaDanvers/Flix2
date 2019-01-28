@@ -14,6 +14,8 @@
 		7D38E89E21FFB9A400D3791E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D38E89C21FFB9A400D3791E /* LaunchScreen.storyboard */; };
 		7D38E8A921FFB9A400D3791E /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38E8A821FFB9A400D3791E /* FlixTests.swift */; };
 		7D38E8B421FFB9A500D3791E /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38E8B321FFB9A500D3791E /* FlixUITests.swift */; };
+		7D38E8C221FFBB1E00D3791E /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38E8C121FFBB1E00D3791E /* MoviesViewController.swift */; };
+		7D38E8C421FFC95900D3791E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38E8C321FFC95900D3791E /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7D38E8AF21FFB9A500D3791E /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D38E8B321FFB9A500D3791E /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		7D38E8B521FFB9A500D3791E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D38E8C121FFBB1E00D3791E /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		7D38E8C321FFC95900D3791E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7D38E89321FFB9A400D3791E /* AppDelegate.swift */,
 				7D38E89521FFB9A400D3791E /* ViewController.swift */,
 				7D38E89721FFB9A400D3791E /* Main.storyboard */,
+				7D38E8C321FFC95900D3791E /* MovieCell.swift */,
+				7D38E8C121FFBB1E00D3791E /* MoviesViewController.swift */,
 				7D38E89A21FFB9A400D3791E /* Assets.xcassets */,
 				7D38E89C21FFB9A400D3791E /* LaunchScreen.storyboard */,
 				7D38E89F21FFB9A400D3791E /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				7D38E89621FFB9A400D3791E /* ViewController.swift in Sources */,
 				7D38E89421FFB9A400D3791E /* AppDelegate.swift in Sources */,
+				7D38E8C421FFC95900D3791E /* MovieCell.swift in Sources */,
+				7D38E8C221FFBB1E00D3791E /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
