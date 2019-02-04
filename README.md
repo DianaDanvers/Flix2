@@ -16,7 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-<img src="https://i.giphy.com/media/edPvGEwn77a5f5KrJx/source.gif" width=250><br>
+<img src="https://media.giphy.com/media/Fea9mmRI3O35XBt8hp/source.gif" width=250><br>
 
 ### Notes
 I'm convinced CocoaPods was designed to be unusable.  After hours of troubleshooting, I used Carthage.  It took a few more steps, and took far longer to complete the process, but ultimately worked
