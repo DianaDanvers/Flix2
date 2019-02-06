@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.2.2",
+  "iOS" : [
+    {
+      "name" : "OAuthSwift",
+      "hash" : "9723a05dbf6b869f7f0749bf07b428cc36d99472d456d943ed0dcdab3097753e"
+    }
+  ]
+}
