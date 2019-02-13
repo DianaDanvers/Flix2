@@ -16,9 +16,13 @@
 		7D38E8B421FFB9A500D3791E /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38E8B321FFB9A500D3791E /* FlixUITests.swift */; };
 		7D38E8C221FFBB1E00D3791E /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38E8C121FFBB1E00D3791E /* MoviesViewController.swift */; };
 		7D38E8C421FFC95900D3791E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38E8C321FFC95900D3791E /* MovieCell.swift */; };
-		A919009A2208563200CF1934 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91900992208563200CF1934 /* OAuthSwift.framework */; };
-		A919009C2208563600CF1934 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A919009B2208563600CF1934 /* AlamofireImage.framework */; };
-		A919009E2208563900CF1934 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A919009D2208563900CF1934 /* Alamofire.framework */; };
+		A900BDA8220BD67F00871396 /* SuperDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A900BDA7220BD67F00871396 /* SuperDetailsViewController.swift */; };
+		A9085698221499DC00F08983 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9085695221499D800F08983 /* AlamofireImage.framework */; };
+		A9085699221499DC00F08983 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9085695221499D800F08983 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A908569A221499DC00F08983 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9085696221499D900F08983 /* Alamofire.framework */; };
+		A908569B221499DC00F08983 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9085696221499D900F08983 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A908569C221499DC00F08983 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9085697221499DB00F08983 /* OAuthSwift.framework */; };
+		A908569D221499DC00F08983 /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9085697221499DB00F08983 /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A91900A22208FA5A00CF1934 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91900A12208FA5A00CF1934 /* MovieDetailsViewController.swift */; };
 		A94DED67220B6A05000C18BF /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94DED66220B6A04000C18BF /* MovieGridViewController.swift */; };
 		A94DED69220B88F3000C18BF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94DED68220B88EF000C18BF /* CollectionViewCell.swift */; };
@@ -42,6 +46,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A908569E221499DD00F08983 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A9085699221499DC00F08983 /* AlamofireImage.framework in Embed Frameworks */,
+				A908569B221499DC00F08983 /* Alamofire.framework in Embed Frameworks */,
+				A908569D221499DC00F08983 /* OAuthSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7D38E89021FFB9A400D3791E /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D38E89321FFB9A400D3791E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +78,11 @@
 		7D38E8B521FFB9A500D3791E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D38E8C121FFBB1E00D3791E /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		7D38E8C321FFC95900D3791E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		A900BDA7220BD67F00871396 /* SuperDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDetailsViewController.swift; sourceTree = "<group>"; };
+		A9085694221499D600F08983 /* Flix2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Flix2; sourceTree = "<group>"; };
+		A9085695221499D800F08983 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		A9085696221499D900F08983 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		A9085697221499DB00F08983 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
 		A91900992208563200CF1934 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
 		A919009B2208563600CF1934 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		A919009D2208563900CF1934 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
@@ -72,9 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A919009E2208563900CF1934 /* Alamofire.framework in Frameworks */,
-				A919009C2208563600CF1934 /* AlamofireImage.framework in Frameworks */,
-				A919009A2208563200CF1934 /* OAuthSwift.framework in Frameworks */,
+				A9085698221499DC00F08983 /* AlamofireImage.framework in Frameworks */,
+				A908569A221499DC00F08983 /* Alamofire.framework in Frameworks */,
+				A908569C221499DC00F08983 /* OAuthSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +123,10 @@
 		7D38E88721FFB9A400D3791E = {
 			isa = PBXGroup;
 			children = (
+				A9085696221499D900F08983 /* Alamofire.framework */,
+				A9085695221499D800F08983 /* AlamofireImage.framework */,
+				A9085694221499D600F08983 /* Flix2 */,
+				A9085697221499DB00F08983 /* OAuthSwift.framework */,
 				7D38E89221FFB9A400D3791E /* Flix */,
 				7D38E8A721FFB9A400D3791E /* FlixTests */,
 				7D38E8B221FFB9A500D3791E /* FlixUITests */,
@@ -123,6 +152,7 @@
 				7D38E89721FFB9A400D3791E /* Main.storyboard */,
 				A94DED6A220B8CB5000C18BF /* MovieGridCell.swift */,
 				A94DED68220B88EF000C18BF /* CollectionViewCell.swift */,
+				A900BDA7220BD67F00871396 /* SuperDetailsViewController.swift */,
 				7D38E89A21FFB9A400D3791E /* Assets.xcassets */,
 				7D38E89C21FFB9A400D3791E /* LaunchScreen.storyboard */,
 				7D38E89521FFB9A400D3791E /* ViewController.swift */,
@@ -174,6 +204,7 @@
 				7D38E88D21FFB9A400D3791E /* Frameworks */,
 				7D38E88E21FFB9A400D3791E /* Resources */,
 				A919009F2208565900CF1934 /* ShellScript */,
+				A908569E221499DD00F08983 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,9 +336,6 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/OAuthSwift.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -330,6 +358,7 @@
 				A94DED69220B88F3000C18BF /* CollectionViewCell.swift in Sources */,
 				A94DED6B220B8CB6000C18BF /* MovieGridCell.swift in Sources */,
 				7D38E8C421FFC95900D3791E /* MovieCell.swift in Sources */,
+				A900BDA8220BD67F00871396 /* SuperDetailsViewController.swift in Sources */,
 				7D38E8C221FFBB1E00D3791E /* MoviesViewController.swift in Sources */,
 				A94DED67220B6A05000C18BF /* MovieGridViewController.swift in Sources */,
 			);
